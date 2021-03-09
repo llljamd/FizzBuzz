@@ -6,7 +6,7 @@ class test(unittest.TestCase):
 		self.assertEqual(fizz_code.fizz(5), ['1', '2', 'Fizz', '4', 'Buzz'])
 
 	def test2(self):
-		self.assertEqual(fizz_code.fizz(5), ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz'])
+		self.assertEqual(fizz_code.fizz(15), ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz'])
 
 if __name__ == '__main__':
 	unittest.main()
