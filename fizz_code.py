@@ -3,12 +3,12 @@ def fizz(x):
 
 	for i in range(1, x + 1):
 		if i % 3 == 0:
-			array.append("Fizz");
+			output.append("Fizz");
 
 		elif i % 5 == 0:
-			array.append("Buzz");
+			output.append("Buzz");
 
 		else:
-			array.append(str(i));
+			output.append(str(i));
 
-	return array;
+	return output;
